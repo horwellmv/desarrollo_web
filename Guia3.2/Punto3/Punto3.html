@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Punto 3</title>
+</head>
+<body>
+    <h5> <a href="../Index.html">Regresar...</a></h5><br />
+
+    <h2>Punto 3</h2>
+    <p>
+        Confeccionar un formulario que solicite el ingreso del nombre de una persona y permita votar el
+        sitio. Mediante un cuadro de selección el visitante puede elegir entre las siguientes opciones:
+        Excelente, Muy Bueno, Bueno, Regular y Malo.
+    </p><br />
+
+    <h3>----------------------------------</h3><br />
+
+    <form action="/Punto3/Punto3_3.asp" method="post">
+        <label>Nombre:</label>
+        <input type="text" name="F3nombre" value="" />
+        <br />
+
+        <h3>Puntuacion de la pagina: </h3>
+        <input type="radio" id="Malo" name="calificacion" value=" Malo">
+        <label for="Malo"> Malo</label><br>
+
+        <input type="radio" id="Regular" name="calificacion" value=" Regular">
+        <label for="Regular"> Regular</label><br>
+
+        <input type="radio" id="Bueno" name="calificacion" value=" Bueno">
+        <label for="Bueno"> Bueno</label><br>
+
+        <input type="radio" id="Excelente" name="calificacion" value=" Excelente">
+        <label for="Excelente"> Excelente</label><br>
+
+        <input type="submit" name="F3submit" value="Calificar" />
+    </form>
+
+</body>
+</html>

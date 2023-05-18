@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Guia3 P1</title>
+</head>
+<body>
+    <h1>Guia 3 - Formularios con .ASP</h1>
+
+    <ol>
+        <li><a href="/Punto1/Punto1.html">
+            Confeccionar un formulario </a> que permita ingresar el nombre de una persona, su mail, su DNI
+            (documento nacional de identidad) y finalmente su currículum vitae (este último dato hacerlo
+            utilizando un textarea)
+        </li>
+        <br />
+
+        <li><a href="/Punto2/Punto2.html">
+            Confeccionar un formulario</a> que solicite el ingreso de un mail, una clave y luego muestre una serie
+            de títulos de películas con su respectivo checkbox. Disponer también del botón de tipo submit para el
+            envío de datos al servidor.
+        </li>
+        <br />
+
+        <li><a href="/Punto3/Punto3.html">
+            Confeccionar un formulario</a> que solicite el ingreso del nombre de una persona y permita votar el
+            sitio. Mediante un cuadro de selección el visitante puede elegir entre las siguientes opciones:
+            Excelente, Muy Bueno, Bueno, Regular y Malo.
+        </li>
+        <br />
+
+        <li><a href="/Punto4/Punto4.html">
+            Confeccionar un formulario</a> que muestre en un comboBox (select multiple) una serie de
+            mails. Luego permitir que el visitante seleccione uno o varios mails del cuadro de selección.
+        </li>
+        <br />
+
+        <li><a href="/Punto5/Punto5.html">
+            Confeccionar  un control de tipo select</a> con los nombres de países de América y Europa. Agrupe los
+            países por continente.
+        </li>
+        <br />
+    </ol>
+
+    <br />
+
+
+
+    <h2>Formulario Metodo GET usando la barra de direcciones</h2>
+    <h3>Metodo GET recibiendo con: request.QueryString("nombreDeLCampo")</h3>
+
+    <form action="/HtmlP2.asp" method="get">
+        <label>Nombre: </label>
+        <input type="text" name="txtnombreGet" value="" />
+        <br />
+        <input type="submit" name="txtsubmit" value="Enviar" />
+
+    </form>
+
+    <h2>Formulario Metodo POST sin usar la barra de direcciones</h2>
+    <h3>Metodo POST recibiendo con: request.Form("nombreDeLCampo")</h3>
+
+    <form action="/HtmlP3.asp" method="post">
+        <label>Nombre: </label>
+        <input type="text" name="txtnombrePost" value="" />
+        <br />
+        <input type="submit" name="txtsubmit" value="Enviar" />
+
+    </form>
+
+</body>
+</html>

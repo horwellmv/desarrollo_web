@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Punto 2</title>
+</head>
+<body>
+    <h5> <a href="../Index.html">Regresar...</a></h5><br />
+
+    <h2>Punto 2</h2>
+    <p>
+        Confeccione un formulario que solicite el ingreso de un mail, una clave y luego muestre una serie
+        de títulos de películas con su respectivo checkbox. Disponer también del botón de tipo submit para el
+        envío de datos al servidor.
+    </p><br />
+
+    <h3>----------------------------------</h3><br />
+
+    <form action="/Punto2/Punto2_2.asp" method="post">
+        <label>Mail:</label>
+        <input type="email" name="F2mail" value="" />
+        <br />
+
+        <label>Password:</label>
+        <input type="password" name="F2password" value="" />
+        <br />
+
+        <h3>Peliculas vistas: </h3>
+        <input type="checkbox" id="peli1" name="peli1" value=" Titanic">
+        <label for="peli1"> Titanic</label><br>
+
+        <input type="checkbox" id="peli2" name="peli2" value=" ToyStory">
+        <label for="peli2"> ToyStory</label><br>
+
+        <input type="checkbox" id="peli3" name="peli3" value=" Mario Bros">
+        <label for="peli3"> Mario Bros</label><br>
+
+        <input type="submit" name="F2submit" value="Enviar" />
+    </form>
+
+</body>
+</html>

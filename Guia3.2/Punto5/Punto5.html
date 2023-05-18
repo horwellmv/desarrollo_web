@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Punto 5</title>
+</head>
+<body>
+    <h5> <a href="../Index.html">Regresar...</a></h5><br />
+
+    <h2>Punto 5</h2>
+    <p>
+        Confeccionar  un control de tipo select</a> con los nombres de países de América y Europa. Agrupe los
+        países por continente.
+    </p><br />
+
+    <h3>----------------------------------</h3><br />
+
+    <h3>Selecciona un pais de cada continente</h3>
+
+    <form action="/Punto5/Punto5_5.asp" method="post">
+        <label>
+            AMERICA:
+
+            <select name="AMERICA">
+                <option value=“@none”> </option>
+                <option> Argentina</option>
+                <option> Colombia </option>
+                <option> Brasil </option>
+                <option> Venezuela </option>
+            </select>
+        </label>
+        <label>
+            EUROPA:
+
+            <select name="EUROPA">
+                <option value=“@none”> </option>
+                <option> España</option>
+                <option> Portugal </option>
+                <option> Alemania </option>
+                <option> Francia </option>
+            </select>
+        </label>
+        <br />
+
+        <input type="submit" name="F5submit" value="Enviar"/>
+    </form>
+
+</body>
+</html>

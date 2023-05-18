@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Punto 4</title>
+</head>
+<body>
+    <h5> <a href="../Index.html">Regresar...</a></h5><br />
+
+    <h2>Punto 4</h2>
+    <p>
+        Confeccionar un formulario que muestre en un comboBox 
+    (select multiple) una serie de mails. Luego permitir que el visitante 
+    seleccione uno o varios mails del cuadro de selección.
+    </p><br />
+
+    <h3>----------------------------------</h3><br />
+
+    <form action="/Punto4/Punto4_4.asp" method="post">
+        <label>Email:</label>
+        <input type="text" name="F4_mail" value="" />
+        @
+        <select name="servidor">
+            <option value=“@none”> </option>
+            <option > Gmail</option>
+            <option > Hotmail </option>
+            <option > Latinmail </option>
+            <option > Yahoo </option>
+        </select>.com
+       
+        <br />
+
+        <input type="submit" name="F4submit" value="Enviar"/>
+    </form>
+
+</body>
+</html>
