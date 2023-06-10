@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia 4 P6</title>
+    <script src="p6.js"></script>
+</head>
+<body>
+    <a href="../index.html">Regresar</a>
+    <br>
+    <h1>Punto 6</h1>
+
+    <p>Se necesita hacer una página que contenga dos cuadros de texto (dónde se ingresarán números), un botón (con la leyenda „Calcular‟) y cuatro controles de tipo 'radioButton' (suma, resta, multiplicación y división). Cuando se pulsa el botón una función deberá mostrar el resultado, de acuerdo al tipo de operación que el usuario eligió. Contemplar el uso de la estructura switch y de las propiedades".value" y ".checked"</p>
+
+    <br>
+    <div>
+        <label >Numero 1</label>
+        <input name="numero1" id="numero1" type="number">
+    </div>
+    <div>
+        <label >Numero 2</label>
+        <input name="numero2" id="numero2" type="number">
+    </div>
+    <br>
+    <div>
+        <label >+</label><input type="radio" value="suma" name="calculadora">
+        <label >--</label><input type="radio" value="resta" name="calculadora">
+        <br>
+        <label >x</label><input type="radio" value="multiplica" name="calculadora">
+        <label >%</label><input type="radio" value="divide" name="calculadora">
+        <button onclick="Calcular()">Calcular</button>
+    </div>
+    <br>
+    <div>
+        <h2 name="total" id="total" style="color: blue;" >--</h2>
+    </div>
+    
+</body>
+</html>
